@@ -189,7 +189,7 @@ main{
 }
 
 .instagram-box:nth-child(odd){
-  margin: 0 10px 10px 0;
+  margin-right: 10px;
 }
 
 .instagram-box:nth-child(1){
@@ -243,7 +243,7 @@ footer{
 
   .nav-list-item{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0 0 10px 0;
   }
 
   .main-visual-content{
@@ -253,35 +253,42 @@ footer{
   main{
     width: 100%;
     display: block;
-    margin-left: 10px;
   }
 
   .blog{
     width: 100%;
+    margin:0;
   }
 
   .blog-image{
-    width: 45%;
+    width: 49%;
   }
 
-  .blog-text-heading{
-    font-size: 100%;
+  .blog-text{
+    width: 49%;
+    padding-top: 5px;
   }
 
   .sidebar{
     width: 100%;
   }
 
-  .popular-heading{
-    margin-top: 50px;
+  .sidebar-contents{
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .instagram-box{
-    margin-right: 10px;
+    width: 48%;
+    padding-top:48%;
   }
 
-  footer{
-    width: 100%;
+  .instagram-box:nth-child(odd){
+    margin-right: 4%;
+  }
+
+  .pagination{
+    margin-bottom: 50px;
   }
 
 }
